@@ -1,6 +1,6 @@
 // ==UserScript==
 // @id             iitc-plugin-multi-passcode@rongself
-// @name           IITC plugin: Multi Bieda
+// @name           IITC plugin: MultiNakurwiacz
 // @category       Controls
 // @version        0.1.0.20180601.0917.
 // @namespace      https://gist.github.com/rongself/288ad6c887ffb184b469ae0295acc642
