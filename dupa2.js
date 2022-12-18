@@ -18,7 +18,8 @@ function sleep(ms) {
 }
 
 
-var v = document.scripts[18].src.replace('https://intel.ingress.com/jsc/gen_dashboard_','').replace('.js','');//"807e1345dad41ac8a2123b8bfd56fb7e462af605";
+var v = document.scripts[document.scripts.length
+-1].src.replace('https://intel.ingress.com/jsc/gen_dashboard_','').replace('.js','');//"807e1345dad41ac8a2123b8bfd56fb7e462af605";
 var token = getCookie("csrftoken");
 var itmCnt = 100;
 
