@@ -21,7 +21,7 @@ function sleep(ms) {
 var v = "";
 for(let x = 0; x < document.scripts.length; x++){
 	var script = document.scripts[x].src;
-	if(script.contains("gen_dashboard")
+	if(script.includes("gen_dashboard"))
 		v = script.replace('https://intel.ingress.com/jsc/gen_dashboard_','').replace('.js','');
 }
 
