@@ -18,8 +18,13 @@ function sleep(ms) {
 }
 
 
-var v = document.scripts[document.scripts.length
--1].src.replace('https://intel.ingress.com/jsc/gen_dashboard_','').replace('.js','');//"807e1345dad41ac8a2123b8bfd56fb7e462af605";
+var v = "";
+for(let x = 0; x < document.scripts.length; x++){
+	var script = document.scripts[x].src;
+	if(script.contains("gen_dashboard")
+		v = script.replace('https://intel.ingress.com/jsc/gen_dashboard_','').replace('.js','');
+}
+
 var token = getCookie("csrftoken");
 var itmCnt = 100;
 
